@@ -123,6 +123,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    /**
+     * bind service
+     */
     private void bindMusicService() {
         intent = new Intent(MainActivity.this , MusicService.class);
         startService(intent);
