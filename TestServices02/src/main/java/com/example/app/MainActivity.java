@@ -108,6 +108,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    /**
+     * init view
+     */
     private void initView() {
         btnStart = findViewById(R.id.btn_play);
         btnStop = findViewById(R.id.btn_stop);
